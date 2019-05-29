@@ -1,10 +1,10 @@
 # deleteAutosaves
 
 
-**Download** -
+**Download** - [Version 1.0](https://github.com/codemicro/deleteAutosaves/releases/download/v1.0/deleteAutosaves.zip)
 
 
-**Installation** - Extract the entire contents of the zip file to one directory. Open the file `settings.ini`, and change the entries in the `[paths]` section. You can add as many directories to search as you wish. Each line should begin with `dir.x` where `x` is an integer incrementing from zero. Ensure that all directories end with a single backslash.
+**Installation** - Extract the entire contents of the zip file to one directory. Open the file `settings.ini`, and change the entries in the `[paths]` section. You can add as many directories to search as you wish. Each line should begin with `dir.x` where `x` is an integer incrementing from zero. Ensure that all directories end with a single backslash. If an entry is not being used, remove it from the settings file.
 
 
 **Use** - Simply run `deleteAutosaves.exe`. If logging is enabled, it will create a log file in the directory containing the `.exe`, and will create a log file within this directory each time it is run. When the program has completed, this log file will be opened.
