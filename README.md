@@ -1,6 +1,9 @@
 # deleteAutosaves
 
 
+A tool to automatically delete autosaves and previous flight save files from Flight Simulator X and Prepar3D.
+
+
 **Download** - [Version 1.0](https://github.com/codemicro/deleteAutosaves/releases/download/v1.0/deleteAutosaves.zip)
 
 
