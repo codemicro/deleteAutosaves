@@ -46,10 +46,12 @@ print("Searching files...")
 # goes through each item in the list and searches the filename - if it matches one of the keys
 # then add it to another list pending erasure.
 for item in files:
-    split = item.split("\\")[-1].split(".")
-    conditions = [split[0].lower().find(keys[0]) == 0,
-                  split[0].lower().find(keys[1]) == 0]
-    if conditions[0] or conditions[1]:
+    allowDeletion = False
+    for condition in keys:
+        split = item.split("\\")[-1].split(".")
+        if split[0].lower().find(condition.lower()) != -1:
+            allowDeletion = True
+    if allowDeletion:
         deletion.append(item)
 
 # works out the directory the script is being run from
@@ -69,7 +71,7 @@ if logging:
     open(logFName, "w")
     logF = open(logFName, "a+")
     logF.write("Deletion tool by Tom Pain - " + datetime.today().strftime('%Y-%m-%d %H:%M:%S') + "\n")
-    logF.write("Search keys: \"{}\" and \"{}\"\n\n".format(keys[0], keys[1]))
+    logF.write("Search keys: {}\n\n".format(keys))
 
 print("Deleting files...")
 
