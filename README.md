@@ -1,4 +1,4 @@
-# deleteAutosaves
+# Autosave deletion tool
 
 
 A tool to automatically delete autosaves and previous flight save files from Flight Simulator X and Prepar3D.
