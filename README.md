@@ -1,7 +1,7 @@
 # Autosave deletion tool
 
 
-[![Mozilla Public Licence v2](<img src="https://img.shields.io/badge/Licence-MPL--2.0-yellow.svg?style=flat-square">)](https://www.mozilla.org/en-US/MPL/)
+[![Mozilla Public Licence v2(<img src="https://img.shields.io/badge/Licence-MPL--2.0-yellow.svg?style=flat-square">)](https://www.mozilla.org/en-US/MPL/) [![Written for Python 3.7(https://img.shields.io/badge/Written%20in-Python--3.7-green.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 
 
 A tool to automatically delete autosaves and previous flight save files from Flight Simulator X and Prepar3D.
