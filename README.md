@@ -1,6 +1,9 @@
 # Autosave deletion tool
 
 
+[![Mozilla Public Licence v2](<img src="https://img.shields.io/badge/Licence-MPL--2.0-yellow.svg?style=flat-square">)](https://www.mozilla.org/en-US/MPL/)
+
+
 A tool to automatically delete autosaves and previous flight save files from Flight Simulator X and Prepar3D.
 
 
